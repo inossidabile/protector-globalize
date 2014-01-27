@@ -1,6 +1,6 @@
 # Protector::Globalize
 
-TODO: Write a gem description
+Globalize has some internal issues when used in conjuction with Protector due to the way it creates instances of localization sub-model. Basically you won't be able to save any restricted model – validations will always fail. This gem will make things work as intended.
 
 ## Installation
 
@@ -15,10 +15,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install protector-globalize
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
